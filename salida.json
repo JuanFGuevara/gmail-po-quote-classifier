@@ -1,0 +1,88 @@
+[
+  {
+    "tipo_documento": "QUOTE",
+    "correo": "Juan Felipe Guevara Davila <est.juanf.guevara@unimilitar.edu.co>",
+    "asunto": "cotizacion",
+    "fecha": "Sat, 8 Nov 2025 09:18:34 -0500",
+    "productos": [
+      {
+        "nombre": "Producto detectado",
+        "descripcion": "",
+        "cantidad": 1,
+        "precio_unitario": 442.58,
+        "total": 442.58
+      }
+    ],
+    "totales": {
+      "total": 442.58,
+      "moneda": "USD"
+    },
+    "adjuntos": []
+  },
+  {
+    "tipo_documento": "PO",
+    "correo": "Juan Felipe Guevara Davila <est.juanf.guevara@unimilitar.edu.co>",
+    "asunto": "orden de compra",
+    "fecha": "Sat, 8 Nov 2025 09:16:45 -0500",
+    "productos": [
+      {
+        "nombre": "Producto detectado",
+        "descripcion": "",
+        "cantidad": 1,
+        "precio_unitario": 442.58,
+        "total": 442.58
+      }
+    ],
+    "totales": {
+      "total": 442.58,
+      "moneda": "USD"
+    },
+    "adjuntos": []
+  },
+  {
+    "tipo_documento": "PO",
+    "correo": "Juan Felipe Guevara Davila <est.juanf.guevara@unimilitar.edu.co>",
+    "asunto": "PURCHASE ORDER NUMBER: SW-0000005988",
+    "fecha": "Sat, 8 Nov 2025 08:24:10 -0500",
+    "productos": [
+      {
+        "nombre": "Vinyl Floor Tiles",
+        "descripcion": "Teal, Std Excelon Imperial Texture, 12 in Tile Wd, Smooth ARMSTRONG FLOORING, 51906031, Country of Origin USA",
+        "cantidad": 50,
+        "precio_unitario": 101.47,
+        "total": 5073.5
+      }
+    ],
+    "totales": {
+      "total": 5073.5,
+      "moneda": "USD"
+    },
+    "adjuntos": [
+      {
+        "nombre": "Ejemplo_de_PO.pdf",
+        "tipo": "application/pdf",
+        "ruta": "adjuntos/Ejemplo_de_PO.pdf"
+      }
+    ]
+  },
+  {
+    "tipo_documento": "QUOTE",
+    "correo": "Juan Felipe Guevara Davila <est.juanf.guevara@unimilitar.edu.co>",
+    "asunto": "QUOTE",
+    "fecha": "Sat, 8 Nov 2025 08:20:00 -0500",
+    "productos": [
+      {
+        "nombre": "Producto detectado",
+        "descripcion": "",
+        "cantidad": 1,
+        "precio_unitario": 442.58,
+        "total": 442.58
+      }
+    ],
+    "totales": {
+      "total": 442.58,
+      "moneda": "USD"
+    },
+    "adjuntos": []
+  }
+]
