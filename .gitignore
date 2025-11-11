@@ -1,0 +1,13 @@
+# Entorno virtual
+venv/
+__pycache__/
+*.pyc
+
+# Archivos de autenticación
+credentials.json
+token.json
+
+# Archivos de salida
+output.json
+salida*.json
+adjuntos/

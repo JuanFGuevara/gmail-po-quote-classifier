@@ -5,17 +5,6 @@ PRICE_RE = r'(?P<currency>\$|USD|COP|EUR)?\s*(?P<price>\d{1,3}(?:[.,]\d{3})*(?:[
 QTY_RE = r'(?:Qty|Quantity|Cantidad)[:\s]*(?P<qty>\d+)'
 TOTAL_RE = r'\bTotal\s*[:\-]?\s*' + PRICE_RE
 
-def _parse_price(s):
-    if not s:
-        return None
-    s = s.replace('USD','').replace('COP','').replace('EUR','')
-    s = s.replace(' ', '').replace(',', '.').replace('$', '')
-    try:
-        return float(s)
-    except:
-        return None
-    
-import re
 import os
 
 def _parse_price(s):
